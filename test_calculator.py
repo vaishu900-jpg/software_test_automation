@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, square
 
 
 def add(a, b):
@@ -41,3 +41,7 @@ def divide(a, b):
 
 def test_division():
     assert divide(6, 3) == 2
+
+
+def test_square():
+    assert square(4) == 16
