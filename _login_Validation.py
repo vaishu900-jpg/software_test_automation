@@ -1,5 +1,5 @@
 def validate_login(username, password):
-    if username == "admin" and password == "wrongpassword":
+    if username == "admin" and password == "password123":
         return True
     else:
         return False
